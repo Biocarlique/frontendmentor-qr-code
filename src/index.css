@@ -1,0 +1,15 @@
+/* @font-face {
+    font-family: Outfit;
+    src: url("../src/assets/fonts/Outfit-VariableFont_wght.ttf");
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+    --font-fm-outfit: Outfit, "sans-serif";
+    --color-fm-slate-300: hsl(212, 45%, 89%);
+    --color-fm-slate-500: hsl(216, 15%, 48%);
+    --color-fm-slate-900: hsl(218, 44%, 22%);
+}
